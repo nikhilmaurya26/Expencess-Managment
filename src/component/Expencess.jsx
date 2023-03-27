@@ -11,7 +11,7 @@ export default function Expencess() {
       id: 1,
       category: "John",
       dateofexpence: 23,
-      amount: 1000,
+      amount: $1000,
       updated:26,
       created:'nik'
     },
@@ -19,7 +19,7 @@ export default function Expencess() {
       id: 2,
       category: "John",
       dateofexpence: 231,
-      amount: 1000,
+      amount: $1000,
       updated:26,
       created:'nik'
     },
@@ -27,7 +27,7 @@ export default function Expencess() {
       id: 3,
       category: "John",
       dateofexpence: 23,
-      amount: 1000,
+      amount: $1000,
       updated:26,
       created:'nik'
     },
@@ -121,7 +121,7 @@ export default function Expencess() {
   return (
     <div className="Expencess h-screen w-full">
         <div className='max-w-[1200px] w-full mx-auto flex justify-between p-3'>
-          <h1 className='text-4xl font-bold p-3'>Expencess</h1>
+          <h1 className='text-4xl font-bold p-3'>Expenses</h1>
           <div className='p-3 object-right flex'>
             <Input placeholder='Filter By date of Expencess' className='h-8 w-18 m-4 ' />
             <Input placeholder=' Search Expences by name'className='h-8 w-18 m-4' />
@@ -171,7 +171,7 @@ export default function Expencess() {
               });
             }}
           />
-          Date of expences
+          Date of Expenses
           <Input type="date"
             value={editingStudent?.dateofexpence}
             onChange={(e) => {
