@@ -11,7 +11,7 @@ export default function Expencess() {
       id: 1,
       category: "John",
       dateofexpence: 23,
-      amount: $1000,
+      amount: 1000,
       updated:26,
       created:'nik'
     },
@@ -19,7 +19,7 @@ export default function Expencess() {
       id: 2,
       category: "John",
       dateofexpence: 231,
-      amount: $1000,
+      amount: 1000,
       updated:26,
       created:'nik'
     },
@@ -27,7 +27,7 @@ export default function Expencess() {
       id: 3,
       category: "John",
       dateofexpence: 23,
-      amount: $1000,
+      amount: 1000,
       updated:26,
       created:'nik'
     },
